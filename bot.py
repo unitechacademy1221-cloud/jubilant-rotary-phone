@@ -1,9 +1,9 @@
-  import os
+import os
 import yt_dlp
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = "7903709601:AAF4XEUzGHQueTe5CQvfJ8Wp0Iwf-1LeoCw"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Salom! Instagram videosini yuboring — men uni yuklab beraman.")
